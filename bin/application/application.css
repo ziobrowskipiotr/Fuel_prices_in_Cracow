@@ -1,0 +1,165 @@
+.root {
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+}
+.button {
+    -fx-padding: 0 20 0 20; /*internal margins */
+    -fx-border-radius: 80; /*rounding */
+    -fx-background-radius: 80; /*rounding */
+    -fx-background-color: linear-gradient(to right, #334d50, #cbcaa5); /*background linear color theme */
+    -fx-text-fill: white; /*color of the text */
+    -fx-font-size: 25px; /*size of the text */
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.1) , 4,0,0,1 ); /*button shadow effect */
+}
+
+.button:hover {
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.2) , 5,0,0,2 ); /*when the user hovers over the button, the button's shadow increases */
+    -fx-translate-y: -2; /*moves the button up 2 pixels, giving the effect that the button is slightly raised when the user hovers over it */
+}
+
+.scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #cbcaa5;
+    -fx-background-insets: 0, 2, 4;
+    -fx-background-radius: 5;
+    -fx-border-color: #334d50;
+    -fx-border-radius: 5;
+    -fx-border-width: 1;
+    -fx-border-insets: 1;
+}
+
+.scroll-bar:vertical .track {
+    -fx-background-color: #334d50;
+    -fx-background-radius: 5;
+}
+
+.scroll-bar:horizontal {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: #cbcaa5;
+    -fx-background-insets: 0, 2, 4;
+    -fx-background-radius: 5;
+    -fx-border-color: #334d50;
+    -fx-border-radius: 5;
+    -fx-border-width: 1;
+    -fx-border-insets: 1;
+}
+
+.scroll-bar:horizontal .track {
+    -fx-background-color: #334d50;
+    -fx-background-radius: 5;
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-background-color: #334d50;
+    -fx-background-radius: 5;
+}
+
+.scroll-bar .increment-arrow,
+.scroll-bar .decrement-arrow {
+    -fx-background-color: #ffffff; /* To match the thumb color */
+}
+
+.scroll-bar .track {
+    -fx-background-color: #334d50;
+    -fx-background-radius: 5;
+}
+
+.table-view {
+    -fx-background-color: #4b4b4b; /* Ciemne tło dla całej TableView */
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: #626567; /* Ciemniejszy odcień dla komórek */
+    -fx-padding: 5px; /* Wewnętrzny margines komórek */
+    -fx-border-color: #515151; /* Kolor obramowania komórek */
+    -fx-border-width: 0.5; /* Szerokość obramowania komórek */
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #838383; /* Lżejszy kolor tła zaznaczonej komórki */
+    -fx-text-fill: white; /* Kolor tekstu zaznaczonej komórki */
+}
+
+.table-view .table-cell {
+    -fx-text-fill: white; /* Biały kolor tekstu w komórkach dla kontrastu */
+    -fx-font-size: 15px;
+    -fx-alignment: center-left; /* Wyrównanie tekstu w komórkach */
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #333333; /* Bardzo ciemne tło nagłówka kolumn */
+    -fx-border-color: transparent; /* Usunięcie obramowania dla estetyki */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 4, 0, 0, 1); /* Dodanie cienia dla lepszej widoczności */
+}
+
+.table-view .column-header .label {
+    -fx-background-color: #333333; /* Bardzo ciemne tło nagłówka kolumn */
+    -fx-text-fill: white; /* Biały kolor tekstu nagłówka dla kontrastu */
+    -fx-font-size: 16px; /* Rozmiar czcionki nagłówka */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 4, 0, 0, 1); /* Mocniejszy efekt cienia nagłówka */
+    -fx-font-weight: bold;
+}
+
+.label-title {
+    -fx-font-size: 25px; /* rozmiar tekstu */
+    -fx-text-fill: white; /* kolor tekstu */
+    -fx-font-weight: bold; /* pogrubienie tekstu */
+    -fx-padding: 10px; /* wewnętrzny margines */
+    -fx-background-color: linear-gradient(to right, rgba(51, 77, 80, 0.8), rgba(203, 202, 165, 0.8)); /* gradient tła z półprzezroczystością */
+    -fx-background-radius: 10; /* zaokrąglenie tła */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.7), 4, 0, 0, 1); /* cień dla tekstu */
+}
+
+/* Styl dla wykresu słupkowego */
+
+.chart-title {
+    -fx-text-fill: #ffffff; /* Domyślnie biały tekst dla tytułów */
+}
+
+.axis-label {
+    -fx-text-fill: #ffffff; /* Biały tekst dla etykiet osi */
+}
+
+.chart-legend {
+    -fx-text-fill: #ffffff; /* Biały tekst dla legendy */
+}
+.chart {
+    -fx-background-color: linear-gradient(to right, #334d50, #cbcaa5); /* Gradient tła wykresu */
+}
+
+.chart-content {
+    -fx-background-color: transparent;
+}
+
+.chart-plot-background {
+    -fx-background-color: transparent;
+}
+.axis {
+    -fx-tick-label-fill: white; /* kolor etykiet osi */
+    -fx-font-size: 12pt; /* rozmiar czcionki etykiet osi */
+}
+
+.axis-label {
+    -fx-text-fill: white; /* kolor tekstu etykiet osi */
+    -fx-font-size: 14pt; /* rozmiar czcionki etykiet osi */
+}
+
+.number-axis {
+    -fx-tick-label-fill: white; /* kolor etykiet osi liczbowej */
+    -fx-font-size: 22pt; /* rozmiar czcionki etykiet osi liczbowej */
+}
+.number-axis .axis-tick-labels .text {
+    -fx-background-color: #334d50; /* kolor tła etykiet */
+    -fx-padding: 2px; /* margines wokół tekstu */
+}
+.default-color0.chart-bar { -fx-bar-fill: #c0392b}
+.default-color1.chart-bar { -fx-bar-fill: #16a085}
+.default-color2.chart-bar { -fx-bar-fill: #27ae60}
+.default-color3.chart-bar { -fx-bar-fill: #2c3e50}

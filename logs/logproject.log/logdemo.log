@@ -1,0 +1,192 @@
+08:24:31.949 [JavaFX Application Thread] INFO  application.Main - Application is starting
+08:24:33.145 [JavaFX Application Thread] INFO  application.Main - Connecting to the URL...
+08:24:33.146 [JavaFX Application Thread] INFO  application.Main - Connected to the URL
+08:24:33.224 [JavaFX Application Thread] ERROR application.Main - Error fetching images: 
+java.io.FileNotFoundException: /home/piotr/eclipse-workspace/OOP_project/src/download_images/dwnimage2.png (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123) ~[?:?]
+	at application.Main.downloadImage(Main.java:74) ~[bin/:?]
+	at application.Main.fetchImages(Main.java:65) ~[bin/:?]
+	at application.Main.start(Main.java:26) ~[bin/:?]
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:839) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:483) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456) ~[javafx.graphics.jar:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.glass.ui.gtk.GtkApplication._runLoop(Native Method) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.glass.ui.gtk.GtkApplication.lambda$runLoop$10(GtkApplication.java:263) ~[javafx.graphics.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+08:24:33.941 [JavaFX Application Thread] INFO  application.Main - The application has terminated
+08:25:19.509 [JavaFX Application Thread] INFO  application.Main - Application is starting
+08:25:20.428 [JavaFX Application Thread] INFO  application.Main - Connecting to the URL...
+08:25:20.428 [JavaFX Application Thread] INFO  application.Main - Connected to the URL
+08:25:20.499 [JavaFX Application Thread] ERROR application.Main - Error fetching images: 
+java.io.FileNotFoundException: /home/piotr/eclipse-workspace/OOP_project/src/download_images/dwnimage2.png (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123) ~[?:?]
+	at application.Main.downloadImage(Main.java:74) ~[bin/:?]
+	at application.Main.fetchImages(Main.java:65) ~[bin/:?]
+	at application.Main.start(Main.java:26) ~[bin/:?]
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:839) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:483) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456) ~[javafx.graphics.jar:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.glass.ui.gtk.GtkApplication._runLoop(Native Method) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.glass.ui.gtk.GtkApplication.lambda$runLoop$10(GtkApplication.java:263) ~[javafx.graphics.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+08:25:21.179 [JavaFX Application Thread] INFO  application.Main - The application has terminated
+08:25:39.063 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@4540127c
+08:25:39.064 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@7165b256
+08:25:39.065 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@2f146686
+08:25:39.065 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@1f50563
+08:25:39.065 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@a9ed03b
+08:25:39.065 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@f38fde0
+08:25:39.065 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@3148ad7
+08:25:39.065 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@2ae349cb
+08:25:39.066 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@56005ba4
+08:25:39.066 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@1e1f6b79
+08:25:39.066 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@39fa185f
+08:25:39.066 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@967b3ba
+08:25:39.066 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@5d6e0449
+08:25:39.066 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@38cfe83e
+08:25:39.066 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@519e2798
+08:25:39.066 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@65d0a472
+08:25:39.067 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@48b1a8cd
+08:25:39.067 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@ff837fd
+08:25:39.067 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@2f7a637d
+08:25:39.067 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@4f69b1d4
+08:25:39.067 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@a5b8f34
+08:25:39.067 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@4452065d
+08:25:39.068 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@384ff421
+08:25:39.068 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@3aaa15ed
+08:25:39.068 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@6cde0fa3
+08:25:39.068 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@38ea9c8b
+08:25:39.068 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@7fc3994b
+08:25:39.068 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@152cee23
+08:25:39.068 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@9934832
+08:25:39.069 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@6571934f
+08:25:39.069 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@61b576b
+08:25:39.069 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@74b4fc7d
+08:25:39.069 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@6775e801
+08:25:39.069 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@e77f44b
+08:25:39.069 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.Data@520b5ae1
+08:25:39.335 [JavaFX Application Thread] INFO  application.MyController - Successful scene change
+08:25:47.864 [JavaFX Application Thread] INFO  application.MyController - Successful scene change
+08:25:50.219 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataPb95@2ca4e920
+08:25:50.219 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataPb95@67b1799d
+08:25:50.219 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataPb95@641e6933
+08:25:50.219 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataPb95@7631bcb5
+08:25:50.219 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataPb95@7dd7b6ba
+08:25:50.219 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataPb95@1146550c
+08:25:50.219 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataPb95@606e1e6
+08:25:50.220 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataPb95@7d293187
+08:25:50.220 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataPb95@3d8b3afe
+08:25:50.220 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataPb95@1ec6f676
+08:25:50.220 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataPb95@2f7e2d99
+08:25:50.220 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataPb95@1bef94f8
+08:25:50.220 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataPb95@7f5711b1
+08:25:50.220 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataPb95@560b2d6b
+08:25:50.220 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataPb95@847d0d6
+08:25:50.220 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataPb95@6fe8cd72
+08:25:50.220 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataPb95@28f593a7
+08:25:50.221 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataPb95@279a83a7
+08:25:50.221 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataPb95@116d26e2
+08:25:50.221 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataPb95@3847fae0
+08:25:50.221 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataPb95@3cab2ee4
+08:25:50.272 [JavaFX Application Thread] INFO  application.MyController - Successful scene change
+08:25:51.816 [JavaFX Application Thread] INFO  application.MyController - Successful scene change
+08:25:52.826 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataLpg@5be055e1
+08:25:52.826 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataLpg@7dac2d15
+08:25:52.868 [JavaFX Application Thread] INFO  application.MyController - Successful scene change
+08:25:54.079 [JavaFX Application Thread] INFO  application.MyController - Successful scene change
+08:25:55.282 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataDiesel@1616bb7d
+08:25:55.282 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataDiesel@248e1c39
+08:25:55.282 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataDiesel@47eef01
+08:25:55.283 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataDiesel@67ed6afa
+08:25:55.283 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataDiesel@4403f829
+08:25:55.283 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataDiesel@10b84b44
+08:25:55.283 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataDiesel@634db8b5
+08:25:55.283 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataDiesel@6ffbb49c
+08:25:55.283 [JavaFX Application Thread] DEBUG application.Main - Created DataColumn: application.DataDiesel@3462cbfa
+08:25:55.320 [JavaFX Application Thread] INFO  application.MyController - Successful scene change
+08:26:00.709 [JavaFX Application Thread] INFO  application.MyController - Successful scene change
+08:26:25.775 [JavaFX Application Thread] INFO  application.Main - Application is starting
+08:26:26.676 [JavaFX Application Thread] INFO  application.Main - Connecting to the URL...
+08:26:26.677 [JavaFX Application Thread] INFO  application.Main - Connected to the URL
+08:26:26.764 [JavaFX Application Thread] ERROR application.Main - Error fetching images: 
+java.io.FileNotFoundException: /home/piotr/eclipse-workspace/OOP_project/src/download_images/dwnimage2.png (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123) ~[?:?]
+	at application.Main.downloadImage(Main.java:74) ~[bin/:?]
+	at application.Main.fetchImages(Main.java:65) ~[bin/:?]
+	at application.Main.start(Main.java:26) ~[bin/:?]
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:839) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:483) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456) ~[javafx.graphics.jar:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.glass.ui.gtk.GtkApplication._runLoop(Native Method) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.glass.ui.gtk.GtkApplication.lambda$runLoop$10(GtkApplication.java:263) ~[javafx.graphics.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+08:26:27.423 [JavaFX Application Thread] INFO  application.Main - The application has terminated
+08:26:51.827 [JavaFX Application Thread] INFO  application.Main - Application is starting
+08:26:52.623 [JavaFX Application Thread] INFO  application.Main - Connecting to the URL...
+08:26:52.624 [JavaFX Application Thread] INFO  application.Main - Connected to the URL
+08:26:52.695 [JavaFX Application Thread] ERROR application.Main - Error fetching images: 
+java.io.FileNotFoundException: /home/piotr/eclipse-workspace/OOP_project/src/download_images/dwnimage2.png (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123) ~[?:?]
+	at application.Main.downloadImage(Main.java:74) ~[bin/:?]
+	at application.Main.fetchImages(Main.java:65) ~[bin/:?]
+	at application.Main.start(Main.java:26) ~[bin/:?]
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:839) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:483) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456) ~[javafx.graphics.jar:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.glass.ui.gtk.GtkApplication._runLoop(Native Method) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.glass.ui.gtk.GtkApplication.lambda$runLoop$10(GtkApplication.java:263) ~[javafx.graphics.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+08:26:53.361 [JavaFX Application Thread] INFO  application.Main - The application has terminated
+08:28:32.363 [JavaFX Application Thread] INFO  application.Main - Application is starting
+08:28:33.249 [JavaFX Application Thread] INFO  application.Main - Connecting to the URL...
+08:28:33.249 [JavaFX Application Thread] INFO  application.Main - Connected to the URL
+08:28:33.334 [JavaFX Application Thread] ERROR application.Main - Error fetching images: 
+java.io.FileNotFoundException: /home/piotr/eclipse-workspace/Object_Oriented_Programming_Project/download_images/dwnimage2.png (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123) ~[?:?]
+	at application.Main.downloadImage(Main.java:74) ~[bin/:?]
+	at application.Main.fetchImages(Main.java:65) ~[bin/:?]
+	at application.Main.start(Main.java:26) ~[bin/:?]
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:839) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:483) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456) ~[javafx.graphics.jar:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.glass.ui.gtk.GtkApplication._runLoop(Native Method) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.glass.ui.gtk.GtkApplication.lambda$runLoop$10(GtkApplication.java:263) ~[javafx.graphics.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+08:28:34.015 [JavaFX Application Thread] INFO  application.Main - The application has terminated
+08:29:15.394 [JavaFX Application Thread] INFO  application.Main - Application is starting
+08:29:16.256 [JavaFX Application Thread] INFO  application.Main - Connecting to the URL...
+08:29:16.257 [JavaFX Application Thread] INFO  application.Main - Connected to the URL
+08:29:16.557 [JavaFX Application Thread] INFO  application.Main - Image saved at: /home/piotr/eclipse-workspace/Object_Oriented_Programming_Project/src/download_images/dwnimage2.png
+08:29:16.711 [JavaFX Application Thread] INFO  application.Main - Image saved at: /home/piotr/eclipse-workspace/Object_Oriented_Programming_Project/src/download_images/dwnimage3.png
+08:29:16.883 [JavaFX Application Thread] INFO  application.Main - Image saved at: /home/piotr/eclipse-workspace/Object_Oriented_Programming_Project/src/download_images/dwnimage4.png
+08:29:17.615 [JavaFX Application Thread] INFO  application.Main - The application has terminated

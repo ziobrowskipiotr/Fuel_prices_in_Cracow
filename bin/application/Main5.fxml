@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" pannable="true" prefHeight="1024.0" prefWidth="1792.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MyController">
+  <content>
+    <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" prefHeight="1024.0" prefWidth="1792.0">
+         <children>
+            <ImageView preserveRatio="true" smooth="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@../images/1.png" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+            <BarChart fx:id="fuelPriceChart" alternativeColumnFillVisible="true" barGap="7.0" categoryGap="1.0" layoutX="432.0" layoutY="190.0" opacity="0.85" prefHeight="712.0" prefWidth="1216.0" AnchorPane.leftAnchor="432.0" AnchorPane.rightAnchor="144.0">
+              <xAxis>
+                <CategoryAxis side="BOTTOM" tickLabelGap="5.0" tickLabelsVisible="false" fx:id="xAxis" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis fx:id="yAxis" minorTickCount="0" side="LEFT" tickLabelGap="15.0" tickLength="45.0" tickUnit="0.1">
+                     <tickLabelFont>
+                        <Font size="14.0" />
+                     </tickLabelFont></NumberAxis>
+              </yAxis>
+            </BarChart>
+            <Label alignment="CENTER" graphicTextGap="20.0" layoutX="431.0" prefHeight="97.0" prefWidth="1218.0" styleClass="label-title" text="Charts of average fuel prices in Poland" textAlignment="CENTER" textFill="WHITE" AnchorPane.bottomAnchor="927.0" AnchorPane.leftAnchor="682.0" AnchorPane.rightAnchor="394.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="Ubuntu Mono" size="42.0" />
+               </font>
+            </Label>
+            <VBox prefHeight="1024.0" prefWidth="1792.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#switchToAll" opacity="0.88" prefHeight="75.0" prefWidth="330.0" text="All petrol stations" VBox.vgrow="ALWAYS">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#switchToPb95" opacity="0.88" prefHeight="75.0" prefWidth="330.0" VBox.vgrow="ALWAYS">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <graphic>
+                        <ImageView fitHeight="70.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/Pb95.jpg" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <VBox.margin>
+                        <Insets top="3.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#switchToPb98" opacity="0.88" prefHeight="75.0" prefWidth="330.0">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <graphic>
+                        <ImageView fitHeight="66.0" fitWidth="58.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/Pb98.jpg" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <VBox.margin>
+                        <Insets top="3.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#switchToDiesel" opacity="0.88" prefHeight="75.0" prefWidth="330.0">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <graphic>
+                        <ImageView fitHeight="72.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/on.jpg" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <VBox.margin>
+                        <Insets top="3.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#switchToLpg" opacity="0.88" prefHeight="75.0" prefWidth="330.0">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <graphic>
+                        <ImageView fitHeight="67.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/LPG.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <VBox.margin>
+                        <Insets top="3.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

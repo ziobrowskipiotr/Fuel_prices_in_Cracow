@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<ScrollPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" pannable="true" prefHeight="1024.0" prefWidth="1792.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller_All_petrol_stations">
+   <content>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="343" minWidth="600" prefHeight="1024.0" prefWidth="1792.0">
+         <children>
+            <ImageView fitHeight="1024.0" fitWidth="1792.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@../images/stacja_paliw.png" />
+               </image>
+            </ImageView>
+            <VBox prefHeight="109.0" prefWidth="189.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#switchToMain1" opacity="0.82" prefHeight="78.0" prefWidth="189.0" VBox.vgrow="ALWAYS">
+                     <graphic>
+                        <ImageView fitHeight="62.0" fitWidth="64.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/domek.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </VBox>
+            <TableView fx:id="tableView" layoutX="72.0" layoutY="104.0" opacity="0.76" prefHeight="631.0" prefWidth="1332.0" AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="230.0" AnchorPane.rightAnchor="230.0" AnchorPane.topAnchor="170.0">
+              <columns>
+                  <TableColumn fx:id="nameColumn" prefWidth="180.0" text="City" />
+                  <TableColumn fx:id="addressColumn" prefWidth="253.0" text="Address" />
+                <TableColumn fx:id="brandColumn" prefWidth="180.0" text="Brand" />
+                <TableColumn fx:id="pb95Column" prefWidth="180.0" text="Pb95 price [PLN]" />
+                  <TableColumn fx:id="pb98Column" prefWidth="180.0" text="Pb98 price [PLN]" />
+                  <TableColumn fx:id="dieselColumn" prefWidth="180.0" text="Diesel price [PLN]" />
+                  <TableColumn fx:id="lpgColumn" prefWidth="180.0" text="LPG price [PLN]" />
+              </columns>
+            </TableView>
+            <Label alignment="CENTER" layoutX="664.0" layoutY="22.0" prefHeight="103.0" prefWidth="541.0" styleClass="label-title" text="All fuels prices in Cracow" />
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>

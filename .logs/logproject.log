@@ -1,0 +1,7 @@
+08:38:38.417 [JavaFX Application Thread] INFO  application.Main - Application is starting
+08:38:39.257 [JavaFX Application Thread] INFO  application.Main - Connecting to the URL...
+08:38:39.257 [JavaFX Application Thread] INFO  application.Main - Connected to the URL
+08:38:39.545 [JavaFX Application Thread] INFO  application.Main - Image saved at: /home/piotr/eclipse-workspace/Object_Oriented_Programming_Project/src/download_images/dwnimage2.png
+08:38:39.718 [JavaFX Application Thread] INFO  application.Main - Image saved at: /home/piotr/eclipse-workspace/Object_Oriented_Programming_Project/src/download_images/dwnimage3.png
+08:38:39.876 [JavaFX Application Thread] INFO  application.Main - Image saved at: /home/piotr/eclipse-workspace/Object_Oriented_Programming_Project/src/download_images/dwnimage4.png
+08:38:40.546 [JavaFX Application Thread] INFO  application.Main - The application has terminated
