@@ -1,3 +1,14 @@
+# ⚠️ Project Status: No Longer Maintained ⚠️
+
+> **Important Notice:**  
+> This project is no longer actively maintained due to compatibility issues with several dependencies. Some of the libraries originally used have been deprecated or are no longer supported in their latest versions, causing the project to become non-functional in modern environments.
+
+### Why is this project no longer supported?
+
+- **Dependency Conflicts**: Several core libraries have undergone breaking changes, making it difficult to maintain backward compatibility.
+- **Deprecated Libraries**: Some of the libraries this project relies on have been deprecated and are no longer actively developed.
+- **Limited Support**: Maintaining the project with the latest technology stack would require substantial rewrites.
+
 # Fuel Prices in Cracow Application
 
 This JavaFX application displays information about fuel prices at gas stations in Cracow, Poland. It fetches the latest price data through web scraping from selected websites. The application provides a user interface with tables and charts to present current fuel prices efficiently.
